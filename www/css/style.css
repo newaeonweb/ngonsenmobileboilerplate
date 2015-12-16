@@ -1,0 +1,59 @@
+.avatar {
+    border-radius: 50px;
+    width: 32px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.login-form {
+    text-align: center;
+    width: 80%;
+    margin: 10px auto 0;
+}
+
+input[type=email], input[type=password] {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    outline: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.login-button {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.forgot-password {
+    display: inline;
+    margin: 8px auto 0 auto;
+    font-size: 14px;
+}
+
+.register {
+    display: inline;
+    margin: 8px auto 0 auto;
+    font-size: 14px;
+}
+
+.loading-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+.loading-text {
+    position: absolute;
+    top: 40%;
+    color: #fff;
+    z-index: 1000;
+    border-radius: 50%;
+    text-align: center;
+    width: 100%;
+    text-shadow: 1px 1px 1px #000;
+}

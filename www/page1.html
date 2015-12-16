@@ -1,0 +1,32 @@
+
+<ons-page>
+    <div class="content login" ng-controller="LoginCtrl">
+        <!--<ons-toolbar>-->
+            <!--<div class="center">Mendelics Lab</div>-->
+        <!--</ons-toolbar>-->
+        <div ng-show="isLoading" class="loading-bg">
+            <div class="loading-text"><h4>Loading ...</h4></div>
+        </div>
+
+        <div class="login-form">
+
+            <div>
+                <img src="images/placeholder.jpg" alt="Logo Mendelics">
+            </div>
+
+            <input type="email" class="text-input--underbar" placeholder="Email" value="">
+            <input type="password" class="text-input--underbar" placeholder="Password" value="">
+            <br><br>
+            <ons-button modifier="large" class="login-button">Log In</ons-button>
+            <br><br>
+            <ons-button modifier="large" class="button button--outline" ng-click="login()">Use Google Login</ons-button>
+            <br><br>
+            <ons-button modifier="quiet" class="forgot-password">Forgot password?</ons-button>  <ons-button modifier="quiet" class="register">Don't have an Account?</ons-button>
+            <br>
+
+            {{error}}
+        </div>
+
+
+    </div>
+</ons-page>

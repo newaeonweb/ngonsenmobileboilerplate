@@ -1,0 +1,29 @@
+{
+  "name": "OnsenUI-AngularJS Boilerplte",
+  "description": "Simple Onsen UI + AngularJS scaffold for mobile applications with Apache Cordova",
+  "main": "index.html",
+  "authors": [
+    "fernando monteiro <fernando@newaeonweb.com.br>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "OnsenUI",
+    "AngularJS",
+    "mobile",
+    "first",
+    "mobile",
+    "application"
+  ],
+  "homepage": "https://github.com/newaeonweb/onsenangularmobileboilerplate",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

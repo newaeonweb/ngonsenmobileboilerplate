@@ -1,0 +1,17 @@
+<ons-page ons-loading-placeholder>
+    <div class="content" ng-controller="ScanCtrl">
+        <ons-toolbar>
+            <div class="center">Mendelics Lab</div>
+            <div class="right"> <img ng-src="{{currentUser.picture}}" width="32" class="to-image avatar" ng-click="confirm()" modifier="tappable"></div>
+        </ons-toolbar>
+
+        <ons-row style="margin-top: 100px; text-align: center;">
+            <ons-col>
+                <ons-button  ng-click="scan();">
+                    Escanear Código de Barras
+                </ons-button>
+                <p style="color: #999; font-size: 13px;">Centralize o código de barras na linha vermelha.</p>
+            </ons-col>
+        </ons-row>
+    </div>
+</ons-page>
